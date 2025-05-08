@@ -1,5 +1,6 @@
 import ballerina/http;
 import ballerina/time;
+import ballerinax/mysql.driver as _;
 
 type User record {|
     readonly int id;

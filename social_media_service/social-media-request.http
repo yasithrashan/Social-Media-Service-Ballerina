@@ -11,16 +11,10 @@ content-type: application/json
     "name": "Rimas",
     "mobileNumbers": ["+94718923456"]
 }
-
-HTTP/1.1 201  - Created
-content-length: 0
-connection: close
-server: ballerina
-date: Wed, 7 May 2025 23:31:39 +0530
 ###
 GET http://localhost:9090/social_media/users
 ###
-GET http://localhost:9090/social_media/users/1
+GET http://localhost:9090/social_media/users/2
 ###
 GET http://localhost:9090/social_media/users/3/posts
 ###
